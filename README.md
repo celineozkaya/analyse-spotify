@@ -1,5 +1,21 @@
 
 
+# NOTES de la prof
+
+- stat sur les artistes des top (plus suivi, moins suivi, etc.)
+- maybe pls prises de données sur 3 pays pour montrer evolutions day2day 
+- artistes et morceaux communs à plusieurs top50 : artistes qui circulent le mieux? (à l'echelle mondiale+contient)
+- prendre tous les artistes et faire un reseau des artistes et des genres (noeuds= genre et artistes et on lie les artistes a leurs genres) et faire un fichier :
+
+
+fichier des liens (edges): 
+taylor swift, pop
+taylor swift, country
+
+fichiers des noeuds:
+taylor swift, genre, follower, continent, etc
+artiste, genre, follower, continent, etc
+
 # Caractéristiques audio d'un morceau dans l'API Spotify
 
 Les morceaux dans l'API Spotify possèdent plusieurs caractéristiques audio pour analyser la musique :
