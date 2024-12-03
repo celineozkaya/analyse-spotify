@@ -1,41 +1,53 @@
-artists,followers,genres,name,popularity
-3eVa5w3URK5duf6eyVDbu9,8154674,k-pop,ROSÉ,85
-0du5cEVh5yTK9QJze8zA0C,62697388,"dance pop, pop",Bruno Mars,96
-74KM79TiuVKeVCqs8QtB0B,15324033,pop,Sabrina Carpenter,94
-6qqNVTkY8uBg9cP3Jd7DAH,102709727,"art pop, pop",Billie Eilish,96
-1HY2Jd0NmPuamShAr6KMms,32936218,"art pop, dance pop, pop",Lady Gaga,92
-3y2cIKLjiOlp1Np37WiUdH,806021,"modern country pop, pop rap",Shaboozey,80
-22wbnEMDvgVIAGdFeek6ET,3970001,singer-songwriter pop,Benson Boone,86
-1iCnM8foFssWlPRLfAbIwo,545689,bedroom pop,Gigi Perez,81
-7GlBOeep6PqTfFi59PTUUN,3993314,indie pop,Chappell Roan,88
-4gzpq5DPGxSnKTe4SA8HAU,54871112,"permanent wave, pop",Coldplay,91
-246dkjvS1zLTtiykXe5h60,45862726,"dfw rap, melodic rap, pop, rap",Post Malone,91
-4oUHIQIBe0LHzYfvXNW4QM,11184687,contemporary country,Morgan Wallen,90
-1Xyo4u8uXC1ZmMpatF05PJ,94962172,"canadian contemporary r&b, canadian pop, pop",The Weeknd,96
-699OTQXzgjhIYAHMy9RyPD,12328949,"atl hip hop, plugg, pluggnb, rage rap, rap",Playboi Carti,90
-7Ez6lTtSMjMf2YSYpukP1I,259548,,Dasha,75
-33qOK5uJ8AR2xuQQAhHump,3446695,,Teddy Swims,87
-4tuJ0bMpJh08umKkEXKUI5,3206313,alt z,Gracie Abrams,90
-2FXC3k01G6Gw61bmprjgqS,8083868,"irish singer-songwriter, modern rock, pop, pov: indie",Hozier,86
-69GGBxA162lTqCwzJG5jLp,20644112,pop,The Chainsmokers,83
-3bO19AOone0ubCsfDXDtYt,822438,singer-songwriter pop,Myles Smith,80
-2RQXRUsr4IW1f3mKyKsy4B,3580249,"pov: indie, singer-songwriter pop",Noah Kahan,86
-40ZNYROS4zLfyyBSs2PGe2,5562207,classic oklahoma country,Zach Bryan,90
-2tIP7SsRs7vjIcLrU85W8J,5863084,australian hip hop,The Kid LAROI,85
-70kkdajctXSbqSMJbQO424,1505234,"classic texas country, contemporary country, country dawn",Kacey Musgraves,77
-2sil8z5kiy4r76CRTXxBCA,3005911,"neo mellow, permanent wave, pop rock, post-grunge",The Goo Goo Dolls,76
-4V8LLVI7PbaPR0K2TGSxFF,17897638,"hip hop, rap","Tyler, The Creator",95
-20wkVLutqVOYrc0kxFs7rA,7292990,canadian contemporary r&b,Daniel Caesar,87
-0Y5tJX1MQlPlqiwlOH1tJY,34703382,"rap, slap house",Travis Scott,94
-0C0XlULifJtAgn6ZNCW2eu,7563114,"alternative rock, dance rock, modern rock, permanent wave, rock",The Killers,79
-6kbR2eL4hecj3rFwGOsYsI,23555,,BL3SS,70
-20rKUmFZsfv9GBXiv6R9d6,20120,,CamrinWatsin,71
-2UNjfzEkfsdWVDwnuD6vdH,3760,,bbyclose,70
-4j96cMcT8GRi11qbvo1cLQ,203337,,Michael Marcagi,73
-08GQAI4eElDnROBrJRGE0X,12331601,"album rock, classic rock, rock, soft rock, yacht rock",Fleetwood Mac,83
-10exVja0key0uqUkk6LJRT,3212218,"folk-pop, modern rock",Vance Joy,78
-25uiPmTg16RbhZWAqwLBy5,4464342,"art pop, candy pop, metropopolis, pop, uk pop",Charli xcx,87
-06HL4z0CvFAxyc27GXpf02,126653193,pop,Taylor Swift,100
-4gvjmrtzydbMpyJaXUtwvP,501399,social media pop,Addison Rae,76
-1WaFQSHVGZQJTbf0BdxdNo,765305,chill abstract hip hop,Tommy Richman,78
-0PCCGZ0wGLizHt2KZ7hhA2,1006806,,Artemas,79
+artists,followers,genres,name,popularity,country
+4tuJ0bMpJh08umKkEXKUI5,3296708,alt z,Gracie Abrams,91,New Zealand
+3eVa5w3URK5duf6eyVDbu9,8331839,k-pop,ROSÉ,86,New Zealand
+0du5cEVh5yTK9QJze8zA0C,63153139,"dance pop, pop",Bruno Mars,96,New Zealand
+74KM79TiuVKeVCqs8QtB0B,15653007,pop,Sabrina Carpenter,94,New Zealand
+6qqNVTkY8uBg9cP3Jd7DAH,103084200,"art pop, pop",Billie Eilish,96,New Zealand
+1HY2Jd0NmPuamShAr6KMms,33083714,"art pop, dance pop, pop",Lady Gaga,92,New Zealand
+3y2cIKLjiOlp1Np37WiUdH,829146,"modern country pop, pop rap",Shaboozey,80,New Zealand
+22wbnEMDvgVIAGdFeek6ET,4010734,singer-songwriter pop,Benson Boone,86,New Zealand
+1iCnM8foFssWlPRLfAbIwo,574714,bedroom pop,Gigi Perez,82,New Zealand
+7GlBOeep6PqTfFi59PTUUN,4071059,indie pop,Chappell Roan,88,New Zealand
+4gzpq5DPGxSnKTe4SA8HAU,55022595,"permanent wave, pop",Coldplay,91,New Zealand
+246dkjvS1zLTtiykXe5h60,45922292,"dfw rap, melodic rap, pop, rap",Post Malone,91,New Zealand
+4oUHIQIBe0LHzYfvXNW4QM,11238450,contemporary country,Morgan Wallen,90,New Zealand
+1Xyo4u8uXC1ZmMpatF05PJ,95411178,"canadian contemporary r&b, canadian pop, pop",The Weeknd,96,New Zealand
+699OTQXzgjhIYAHMy9RyPD,12395960,"atl hip hop, plugg, pluggnb, rage rap, rap",Playboi Carti,90,New Zealand
+7Ez6lTtSMjMf2YSYpukP1I,264069,,Dasha,76,New Zealand
+33qOK5uJ8AR2xuQQAhHump,3488512,,Teddy Swims,87,New Zealand
+2FXC3k01G6Gw61bmprjgqS,8109432,"irish singer-songwriter, modern rock, pop, pov: indie",Hozier,86,New Zealand
+69GGBxA162lTqCwzJG5jLp,20668786,pop,The Chainsmokers,83,New Zealand
+3bO19AOone0ubCsfDXDtYt,831041,singer-songwriter pop,Myles Smith,80,New Zealand
+2RQXRUsr4IW1f3mKyKsy4B,3601728,"pov: indie, singer-songwriter pop",Noah Kahan,86,New Zealand
+40ZNYROS4zLfyyBSs2PGe2,5606988,classic oklahoma country,Zach Bryan,90,New Zealand
+2tIP7SsRs7vjIcLrU85W8J,5890212,australian hip hop,The Kid LAROI,85,New Zealand
+70kkdajctXSbqSMJbQO424,1508348,"classic texas country, contemporary country, country dawn",Kacey Musgraves,77,New Zealand
+2sil8z5kiy4r76CRTXxBCA,3018497,"neo mellow, permanent wave, pop rock, post-grunge",The Goo Goo Dolls,77,New Zealand
+4V8LLVI7PbaPR0K2TGSxFF,18061113,"hip hop, rap","Tyler, The Creator",94,New Zealand
+20wkVLutqVOYrc0kxFs7rA,7372380,canadian contemporary r&b,Daniel Caesar,87,New Zealand
+0Y5tJX1MQlPlqiwlOH1tJY,34910223,"rap, slap house",Travis Scott,94,New Zealand
+0C0XlULifJtAgn6ZNCW2eu,7573310,"alternative rock, dance rock, modern rock, permanent wave, rock",The Killers,79,Australia
+6kbR2eL4hecj3rFwGOsYsI,24369,,BL3SS,71,Australia
+20rKUmFZsfv9GBXiv6R9d6,20319,,CamrinWatsin,71,Australia
+2UNjfzEkfsdWVDwnuD6vdH,3809,,bbyclose,71,Australia
+4j96cMcT8GRi11qbvo1cLQ,204956,,Michael Marcagi,73,Australia
+08GQAI4eElDnROBrJRGE0X,12364588,"album rock, classic rock, rock, soft rock, yacht rock",Fleetwood Mac,83,New Zealand
+10exVja0key0uqUkk6LJRT,3219475,"folk-pop, modern rock",Vance Joy,78,New Zealand
+25uiPmTg16RbhZWAqwLBy5,4498935,"art pop, candy pop, metropopolis, pop, uk pop",Charli xcx,87,Australia
+06HL4z0CvFAxyc27GXpf02,127212154,pop,Taylor Swift,100,Australia
+4gvjmrtzydbMpyJaXUtwvP,513902,social media pop,Addison Rae,76,Australia
+1WaFQSHVGZQJTbf0BdxdNo,770146,chill abstract hip hop,Tommy Richman,78,New Zealand
+0PCCGZ0wGLizHt2KZ7hhA2,1014311,,Artemas,79,Australia
+60df5JBRRPcnSpsIMxxwQm,2346644,"classic soul, memphis soul, soul, soul blues, southern soul, vocal jazz",Otis Redding,74,New Zealand
+3IYUhFvPQItj6xySrBmZkd,7142341,"album rock, classic rock, country rock, mellow gold, rock, southern rock, swamp rock",Creedence Clearwater Revival,82,New Zealand
+3jNkaOXasoc7RsxdchvEVq,1065889,"dancefloor dnb, drum and bass, uk dance",Chase & Status,73,New Zealand
+2SrSdSvpminqmStGELCSNd,3013558,"grime, uk hip hop",Stormzy,73,New Zealand
+0rvjqX7ttXeg3mTy8Xscbt,5843043,"album rock, classic rock, hard rock, mellow gold, rock, soft rock",Journey,76,New Zealand
+0L8ExT028jH3ddEcZwqJJ5,21686127,"alternative rock, funk metal, funk rock, permanent wave, rock",Red Hot Chili Peppers,84,New Zealand
+7ohlPA8dRBtCf92zaZCaaB,902709,"australian rock, permanent wave",Crowded House,72,New Zealand
+39T6qqI0jDtSWWioX8eGJz,2616340,"album rock, classic rock, country rock, folk rock, mellow gold, rock, singer-songwriter, soft rock, yacht rock",The Doobie Brothers,71,New Zealand
+5HK6QtizXJzCmoYTkvFRik,143398,chill drill,Ndotz,73,New Zealand
+0fGcIStdT1OpFFhOC7Wp36,312448,,Teezo Touchdown,75,New Zealand
+4YLtscXsxbVgi031ovDDdh,7784709,"contemporary country, outlaw country",Chris Stapleton,83,New Zealand
+11kt6ggsdxvI8MhyeSMKom,300616,,CYRIL,80,New Zealand
