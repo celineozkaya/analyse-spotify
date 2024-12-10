@@ -49,6 +49,8 @@ Source,Target,Weight
 6cUpFVxDYWed9WxtC4QgC5,westcoast flow,1
 7J5UWTbsUFjoSQZQCQCqbQ,westcoast flow,1
 
+## Liste des genres
+trap, rap, pop, reggeaton, hip hop, urbano latino, drill, funk, r&b, cumbia, country, rock, bachata, sierreno, house, v-pop,k-pop,dembow, corrido, amapiano
 
 # Caractéristiques audio d'un morceau dans l'API Spotify
 
