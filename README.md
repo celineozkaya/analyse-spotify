@@ -16,6 +16,40 @@ fichiers des noeuds:
 taylor swift, genre, follower, continent, etc
 artiste, genre, follower, continent, etc
 
+nodes.csv
+Id,Label,Type,main_country
+2YZyLoL8N0Wb9xBt1NhZWg,Kendrick Lamar,Artist,United States
+1jiZvw42D4oquLl24x2VWV,Lefty Gunplay,Artist,United States
+7tYKF4w9nC0nq9CsPZTHyP,SZA,Artist,Malaysia
+4VHa48wXlsDA2vWfgIi7cX,Dody6,Artist,United States
+6cUpFVxDYWed9WxtC4QgC5,Wallie the Sensei,Artist,United States
+7J5UWTbsUFjoSQZQCQCqbQ,Siete7x,Artist,United States
+conscious hip hop,conscious hip hop,Genre,
+hip hop,hip hop,Genre,
+rap,rap,Genre,
+west coast rap,west coast rap,Genre,
+pop,pop,Genre,
+r&b,r&b,Genre,
+westcoast flow,westcoast flow,Genre,
+cali rap,cali rap,Genre,
+
+
+
+edges.csv
+Source,Target,Weight
+2YZyLoL8N0Wb9xBt1NhZWg,conscious hip hop,1
+2YZyLoL8N0Wb9xBt1NhZWg,hip hop,1
+2YZyLoL8N0Wb9xBt1NhZWg,rap,1
+2YZyLoL8N0Wb9xBt1NhZWg,west coast rap,1
+7tYKF4w9nC0nq9CsPZTHyP,pop,1
+7tYKF4w9nC0nq9CsPZTHyP,r&b,1
+7tYKF4w9nC0nq9CsPZTHyP,rap,1
+4VHa48wXlsDA2vWfgIi7cX,westcoast flow,1
+6cUpFVxDYWed9WxtC4QgC5,cali rap,1
+6cUpFVxDYWed9WxtC4QgC5,westcoast flow,1
+7J5UWTbsUFjoSQZQCQCqbQ,westcoast flow,1
+
+
 # Caractéristiques audio d'un morceau dans l'API Spotify
 
 Les morceaux dans l'API Spotify possèdent plusieurs caractéristiques audio pour analyser la musique :
