@@ -1,0 +1,75 @@
+India,danceability
+India,mode
+India,acousticness
+India,valence
+Indonesia,mode
+Indonesia,acousticness
+Indonesia,instrumentalness
+Indonesia,tempo
+Israel,key
+Israel,acousticness
+Israel,instrumentalness
+Israel,liveness
+Israel,tempo
+Japan,energy
+Japan,key
+Japan,loudness
+Japan,mode
+Japan,speechiness
+Japan,liveness
+Japan,valence
+Japan,tempo
+Kazakhstan,danceability
+Kazakhstan,speechiness
+Kazakhstan,acousticness
+Kazakhstan,instrumentalness
+Malaysia,key
+Malaysia,loudness
+Malaysia,mode
+Malaysia,instrumentalness
+Malaysia,tempo
+Pakistan,danceability
+Pakistan,speechiness
+Pakistan,acousticness
+Philippines,danceability
+Philippines,key
+Philippines,mode
+Philippines,valence
+Saudi Arabia,energy
+Saudi Arabia,loudness
+Saudi Arabia,speechiness
+Saudi Arabia,instrumentalness
+Saudi Arabia,liveness
+Saudi Arabia,valence
+Singapore,danceability
+Singapore,energy
+Singapore,key
+Singapore,loudness
+Singapore,mode
+Singapore,valence
+Singapore,tempo
+Taiwan,danceability
+Taiwan,energy
+Taiwan,loudness
+Taiwan,mode
+Taiwan,valence
+Taiwan,tempo
+Thailand,energy
+Thailand,key
+Thailand,loudness
+Thailand,mode
+Thailand,liveness
+Thailand,valence
+Thailand,tempo
+Turkey,danceability
+Turkey,energy
+Turkey,key
+Turkey,speechiness
+Turkey,liveness
+Turkey,valence
+Vietnam,danceability
+Vietnam,mode
+Vietnam,speechiness
+Vietnam,acousticness
+Vietnam,liveness
+Vietnam,tempo
