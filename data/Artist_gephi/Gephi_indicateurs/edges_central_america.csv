@@ -1,0 +1,306 @@
+India,danceability
+India,mode
+India,acousticness
+India,valence
+Indonesia,mode
+Indonesia,acousticness
+Indonesia,instrumentalness
+Indonesia,tempo
+Israel,key
+Israel,acousticness
+Israel,instrumentalness
+Israel,liveness
+Israel,tempo
+Japan,energy
+Japan,key
+Japan,loudness
+Japan,mode
+Japan,speechiness
+Japan,liveness
+Japan,valence
+Japan,tempo
+Kazakhstan,danceability
+Kazakhstan,speechiness
+Kazakhstan,acousticness
+Kazakhstan,instrumentalness
+Malaysia,key
+Malaysia,loudness
+Malaysia,mode
+Malaysia,instrumentalness
+Malaysia,tempo
+Pakistan,danceability
+Pakistan,speechiness
+Pakistan,acousticness
+Philippines,danceability
+Philippines,key
+Philippines,mode
+Philippines,valence
+Saudi Arabia,energy
+Saudi Arabia,loudness
+Saudi Arabia,speechiness
+Saudi Arabia,instrumentalness
+Saudi Arabia,liveness
+Saudi Arabia,valence
+Singapore,danceability
+Singapore,energy
+Singapore,key
+Singapore,loudness
+Singapore,mode
+Singapore,valence
+Singapore,tempo
+Taiwan,danceability
+Taiwan,energy
+Taiwan,loudness
+Taiwan,mode
+Taiwan,valence
+Taiwan,tempo
+Thailand,energy
+Thailand,key
+Thailand,loudness
+Thailand,mode
+Thailand,liveness
+Thailand,valence
+Thailand,tempo
+Turkey,danceability
+Turkey,energy
+Turkey,key
+Turkey,speechiness
+Turkey,liveness
+Turkey,valence
+Vietnam,danceability
+Vietnam,mode
+Vietnam,speechiness
+Vietnam,acousticness
+Vietnam,liveness
+Vietnam,tempo
+Egypt,energy
+Egypt,key
+Egypt,loudness
+Egypt,acousticness
+Egypt,liveness
+Egypt,valence
+Morocco,energy
+Morocco,key
+Morocco,loudness
+Morocco,speechiness
+Morocco,acousticness
+Morocco,liveness
+Morocco,tempo
+South Africa,danceability
+South Africa,mode
+South Africa,instrumentalness
+South Africa,tempo
+Andorra,key
+Andorra,mode
+Andorra,acousticness
+Andorra,liveness
+Andorra,valence
+Andorra,tempo
+Austria,mode
+Austria,valence
+Belarus,danceability
+Belarus,loudness
+Belarus,mode
+Belarus,instrumentalness
+Belarus,liveness
+Belarus,valence
+Belarus,tempo
+Belgium,key
+Belgium,loudness
+Belgium,mode
+Belgium,acousticness
+Belgium,instrumentalness
+Belgium,tempo
+Bulgaria,danceability
+Bulgaria,energy
+Bulgaria,loudness
+Bulgaria,liveness
+Bulgaria,valence
+Bulgaria,tempo
+Czech Republic,danceability
+Czech Republic,energy
+Czech Republic,key
+Czech Republic,speechiness
+Czech Republic,instrumentalness
+Czech Republic,tempo
+Denmark,danceability
+Denmark,loudness
+Denmark,speechiness
+Denmark,liveness
+Denmark,valence
+Estonia,energy
+Estonia,mode
+Estonia,instrumentalness
+Estonia,liveness
+Estonia,valence
+Estonia,tempo
+Finland,energy
+Finland,loudness
+Finland,instrumentalness
+Finland,valence
+Finland,tempo
+France,danceability
+France,loudness
+France,speechiness
+France,acousticness
+France,valence
+Germany,danceability
+Germany,speechiness
+Germany,instrumentalness
+Germany,liveness
+Germany,valence
+Greece,danceability
+Greece,energy
+Greece,key
+Greece,speechiness
+Greece,acousticness
+Greece,liveness
+Hungary,danceability
+Hungary,energy
+Hungary,loudness
+Hungary,speechiness
+Hungary,instrumentalness
+Hungary,valence
+Iceland,mode
+Iceland,acousticness
+Ireland,mode
+Ireland,acousticness
+Italy,energy
+Italy,key
+Italy,loudness
+Italy,mode
+Italy,speechiness
+Italy,liveness
+Italy,valence
+Latvia,mode
+Latvia,instrumentalness
+Latvia,liveness
+Latvia,tempo
+Lithuania,danceability
+Lithuania,energy
+Lithuania,instrumentalness
+Lithuania,valence
+Lithuania,tempo
+Luxembourg,energy
+Luxembourg,key
+Luxembourg,loudness
+Luxembourg,mode
+Luxembourg,instrumentalness
+Luxembourg,tempo
+Netherlands,energy
+Netherlands,key
+Netherlands,loudness
+Netherlands,mode
+Netherlands,instrumentalness
+Netherlands,tempo
+Norway,mode
+Norway,acousticness
+Norway,liveness
+Poland,danceability
+Poland,energy
+Poland,key
+Poland,speechiness
+Poland,acousticness
+Poland,liveness
+Poland,tempo
+Romania,danceability
+Romania,energy
+Romania,loudness
+Romania,acousticness
+Romania,liveness
+Romania,valence
+Romania,tempo
+Slovakia,danceability
+Slovakia,energy
+Slovakia,key
+Slovakia,speechiness
+Slovakia,instrumentalness
+Slovakia,tempo
+Spain,danceability
+Spain,energy
+Spain,loudness
+Spain,speechiness
+Spain,acousticness
+Spain,liveness
+Spain,valence
+Sweden,mode
+Sweden,speechiness
+Sweden,acousticness
+Sweden,liveness
+Sweden,tempo
+Switzerland,energy
+Switzerland,key
+Switzerland,loudness
+Switzerland,mode
+Switzerland,instrumentalness
+Ukraine,key
+Ukraine,acousticness
+Ukraine,instrumentalness
+Ukraine,liveness
+United Kingdom,energy
+United Kingdom,key
+United Kingdom,loudness
+United Kingdom,mode
+United Kingdom,valence
+United Kingdom,tempo
+United States,mode
+United States,speechiness
+United States,instrumentalness
+United States,liveness
+Canada,loudness
+Canada,mode
+Canada,instrumentalness
+Canada,liveness
+Canada,tempo
+Mexico,danceability
+Mexico,energy
+Mexico,key
+Mexico,loudness
+Mexico,acousticness
+Mexico,valence
+Mexico,tempo
+Costa Rica,danceability
+Costa Rica,key
+Costa Rica,loudness
+Costa Rica,mode
+Costa Rica,instrumentalness
+Costa Rica,liveness
+Costa Rica,tempo
+Dominica,energy
+Dominica,key
+Dominica,speechiness
+Dominica,liveness
+Dominica,valence
+Dominica,tempo
+Dominican Republic,energy
+Dominican Republic,key
+Dominican Republic,speechiness
+Dominican Republic,liveness
+Dominican Republic,valence
+Dominican Republic,tempo
+El Salvador,danceability
+El Salvador,energy
+El Salvador,key
+El Salvador,loudness
+El Salvador,acousticness
+El Salvador,valence
+El Salvador,tempo
+Guatemala,danceability
+Guatemala,key
+Guatemala,mode
+Guatemala,acousticness
+Guatemala,valence
+Honduras,energy
+Honduras,loudness
+Honduras,acousticness
+Honduras,instrumentalness
+Nicaragua,danceability
+Nicaragua,mode
+Nicaragua,acousticness
+Nicaragua,valence
+Nicaragua,tempo
+Panama,key
+Panama,loudness
+Panama,speechiness
+Panama,acousticness
+Panama,instrumentalness
