@@ -32,7 +32,7 @@ def continent_principale(artist_id, artists_df):
 
 def create_table_noeuds():
     df_artists = pd.read_csv("./data/artists/artists.csv")
-    df_noeuds = df_artists[["artists", "name", "popularity"]].rename(columns={'artists': 'id', 'name': 'label'})
+    df_noeuds = df_artists[["artists", "name", "popularity","followers"]].rename(columns={'artists': 'id', 'name': 'label'})
     df_noeuds.drop_duplicates(subset=["id"], inplace=True)
     df_noeuds["type"] = "Artist"
     df_noeuds["main_continent"] = df_noeuds["id"].apply(lambda artist_id: continent_principale(artist_id, df_artists))
@@ -49,7 +49,7 @@ def create_table_noeuds():
     df_noeuds = pd.concat([df_noeuds, new_rows_df], ignore_index=True)
 
     # Save to CSV
-    df_noeuds.to_csv("./data/Artist_gephi/graphe_par_continent/neouds_continent.csv", index=False)
+    df_noeuds.to_csv("./data/Artist_gephi/graphe_popularite/neouds_continent.csv", index=False)
 
 def create_edges():
     df_artists = pd.read_csv("./data/artists/artists.csv")
@@ -63,7 +63,7 @@ def create_edges():
             if type(artist["genres"]) is str and style in artist["genres"]:
                 edges_df = pd.concat([edges_df, pd.DataFrame([{"Source": artist["artists"], "Target": style}])], ignore_index=True)
     # Save to CSV
-    edges_df.to_csv("./data/Artist_gephi/graphe_par_continent/edges_continent.csv", index=False)
+    edges_df.to_csv("./data/Artist_gephi/graphe_popularite/edges_continent.csv", index=False)
 
 
 
