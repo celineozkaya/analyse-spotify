@@ -3,8 +3,8 @@
 
 import csv
 
-nodes_file = "data/Artist_gephi/artistes_genres/nodes.csv"
-edges_file = "data/Artist_gephi/artistes_genres/edges.csv"
+nodes_file = "data/Artist_gephi/graph_aristes_pays/nodes.csv"
+edges_file = "data/Artist_gephi/graph_aristes_pays/edges.csv"
 
 artists_data = {}
 edges = {}
@@ -41,15 +41,15 @@ countries = set(row['country'] for row in rows)
 # ecrire noeuds
 with open(nodes_file, 'w', newline='') as nf:
     writer = csv.writer(nf)
-    writer.writerow(["Id", "Label", "Popularity", "Followers"])
+    writer.writerow(["Id", "Label", "Popularity", "Followers", "Type"])
     
     # ajouter les artistes comme noeud
     for artist_id, artist_info in artists_data.items():
-        writer.writerow([artist_id, artist_info['name'], artist_info['popularity'], artist_info['followers']])
+        writer.writerow([artist_id, artist_info['name'], artist_info['popularity'], artist_info['followers'], "artist"])
     
     # ajouter les pays comme noeud
     for country in countries:
-        writer.writerow([country, country, "", ""])
+        writer.writerow([country, country, "", "", "country"])
 
 # ajouter les liens entre artistes et pays
 with open(edges_file, 'w', newline='') as ef:
