@@ -116,7 +116,7 @@ def main():
                         'loudness', 'speechiness', 'acousticness',
                        'instrumentalness', 'liveness', 'valence', 'tempo']
     for attribut in liste_attributes :
-        comparaison_attributs_continents(attribut, f"./graphiques/analyse_variance/{attribut}_box_plot")
+        comparaison_attributs_continents(attribut, f"data/graphiques/analyse_variance/{attribut}_box_plot")
     #graphique_attribut_position("./graphiques/attributs_position")
 
 
