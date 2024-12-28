@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import math
 
 
-def graphique_attribut_position():
+def graphique_attribut_position(save_path):
     """Crée des graphiques de la position dans le top 50 en fonction des différents attributs musicaux"""
 
     liste_attributes = ['danceability', 'energy', 'key',
@@ -45,8 +45,10 @@ def graphique_attribut_position():
 
     # Adjust layout to prevent overlap
     plt.tight_layout()
+    plt.savefig(save_path, bbox_inches='tight', dpi=300)
     plt.show()
-def comparaison_attributs_continents(attribute: str):
+
+def comparaison_attributs_continents(attribute: str, save_path : str):
     # Read data for each continent
     africa_df = pd.read_csv("./data/continent_features/Africa.csv")
     asia_df = pd.read_csv("./data/continent_features/Asia.csv")
@@ -91,6 +93,8 @@ def comparaison_attributs_continents(attribute: str):
     # Adjust layout to prevent label cutoff
     plt.tight_layout()
 
+    plt.savefig(save_path, bbox_inches='tight', dpi=300)
+
     # Show plot
     plt.show()
 
@@ -108,8 +112,12 @@ def comparaison_attributs_continents(attribute: str):
 
 
 def main():
-    #comparaison_attributs_continents("danceability")
-    graphique_attribut_position()
+    liste_attributes = ['danceability', 'energy',
+                        'loudness', 'speechiness', 'acousticness',
+                       'instrumentalness', 'liveness', 'valence', 'tempo']
+    for attribut in liste_attributes :
+        comparaison_attributs_continents(attribut, f"./graphiques/analyse_variance/{attribut}_box_plot")
+    #graphique_attribut_position("./graphiques/attributs_position")
 
 
 if __name__ == "__main__":
