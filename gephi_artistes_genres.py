@@ -1,13 +1,14 @@
 import pandas as pd
 
 
-
 def pays_principale(artist_id, artists_df):
+    """trouve le pays pour lequel l'artiste est dans le top50 le plus de fois et le retourne"""
     df_pays_artist = artists_df[artists_df["artists"] == artist_id]["country"]
     most_frequent = df_pays_artist.mode()[0]
     return (most_frequent)
 
 def continent_principale(artist_id, artists_df):
+    """trouve le continent pour lequel l'arstiste est dans le top50 le plus de fois"""
     continents = {
         "Africa": ['Egypt', 'Morocco', 'South Africa'],
         "Asia": ['India', 'Indonesia', 'Israel', 'Japan', 'Kazakhstan', 'Malaysia',
@@ -31,6 +32,7 @@ def continent_principale(artist_id, artists_df):
             return continent
 
 def create_table_noeuds():
+    """génère la table des neouds pour le fichier gephi"""
     df_artists = pd.read_csv("./data/artists/artists.csv")
     df_noeuds = df_artists[["artists", "name", "popularity","followers"]].rename(columns={'artists': 'id', 'name': 'label'})
     df_noeuds.drop_duplicates(subset=["id"], inplace=True)
@@ -52,6 +54,7 @@ def create_table_noeuds():
     df_noeuds.to_csv("./data/Artist_gephi/graphe_popularite/neouds_continent.csv", index=False)
 
 def create_edges():
+    """genère la table des liens pour le fichier gephi"""
     df_artists = pd.read_csv("./data/artists/artists.csv")
     df_artists.drop_duplicates(subset=["artists"], inplace=True)
     styles = ['trap', 'rap', 'pop', 'reggeaton', 'hip hop', 'urbano latino', 'drill', 'funk', 'r&b', 'cumbia',

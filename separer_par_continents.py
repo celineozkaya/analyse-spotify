@@ -20,7 +20,7 @@ continents = {
 
 
 
-features_df = pd.read_csv("./data/top50_features_avec_USA.csv")
+features_df = pd.read_csv("data/all_features.csv")
 print(features_df["country"])
 for continent, countries in continents.items():
     continent_features_df = features_df[features_df["country"].isin(countries)]
