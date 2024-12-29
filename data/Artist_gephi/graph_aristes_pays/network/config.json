@@ -13,13 +13,13 @@
     "title": ""
   },
   "legend": {
-    "edgeLabel": "has Genre",
-    "colorLabel": "Continent",
+    "edgeLabel": "in top 50 of",
+    "colorLabel": "popularity",
     "nodeLabel": "Artist"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "main_continent",
+    "groupSelectorAttribute": "type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
