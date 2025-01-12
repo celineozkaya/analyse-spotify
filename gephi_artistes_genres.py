@@ -1,9 +1,14 @@
+'''
+Ce script crée les fichiers nescessaires pour faire le graphe des artistes et des genres avec la coloration par pays
+
+'''
+
 import pandas as pd
 
 
 def pays_principale(artist_id, artists_df):
     """trouve le pays pour lequel l'artiste est dans le top50 le plus de fois et le retourne"""
-    df_pays_artist = artists_df[artists_df["artists"] == artist_id]["country"]
+    df_pays_artist = artists_df[artists_df["artists_info"] == artist_id]["country"]
     most_frequent = df_pays_artist.mode()[0]
     return (most_frequent)
 
@@ -33,8 +38,8 @@ def continent_principale(artist_id, artists_df):
 
 def create_table_noeuds():
     """génère la table des neouds pour le fichier gephi"""
-    df_artists = pd.read_csv("./data/artists/artists.csv")
-    df_noeuds = df_artists[["artists", "name", "popularity","followers"]].rename(columns={'artists': 'id', 'name': 'label'})
+    df_artists = pd.read_csv("data/artists_info/artists.csv")
+    df_noeuds = df_artists[["artists_info", "name", "popularity","followers"]].rename(columns={'artists_info': 'id', 'name': 'label'})
     df_noeuds.drop_duplicates(subset=["id"], inplace=True)
     df_noeuds["type"] = "Artist"
     df_noeuds["main_continent"] = df_noeuds["id"].apply(lambda artist_id: continent_principale(artist_id, df_artists))
@@ -55,8 +60,8 @@ def create_table_noeuds():
 
 def create_edges():
     """genère la table des liens pour le fichier gephi"""
-    df_artists = pd.read_csv("./data/artists/artists.csv")
-    df_artists.drop_duplicates(subset=["artists"], inplace=True)
+    df_artists = pd.read_csv("data/artists_info/artists.csv")
+    df_artists.drop_duplicates(subset=["artists_info"], inplace=True)
     styles = ['trap', 'rap', 'pop', 'reggeaton', 'hip hop', 'urbano latino', 'drill', 'funk', 'r&b', 'cumbia',
               'country', 'rock', 'bachata', 'sierreno', 'house', 'v-pop', 'k-pop', 'dembow', 'corrido', 'amapiano']
     edges_df = pd.DataFrame(columns=["Source", "Target"])
@@ -64,7 +69,7 @@ def create_edges():
        # print(artist)
         for style in styles:
             if type(artist["genres"]) is str and style in artist["genres"]:
-                edges_df = pd.concat([edges_df, pd.DataFrame([{"Source": artist["artists"], "Target": style}])], ignore_index=True)
+                edges_df = pd.concat([edges_df, pd.DataFrame([{"Source": artist["artists_info"], "Target": style}])], ignore_index=True)
     # Save to CSV
     edges_df.to_csv("./data/Artist_gephi/graphe_popularite/edges_continent.csv", index=False)
 

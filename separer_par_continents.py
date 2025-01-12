@@ -1,3 +1,10 @@
+'''
+    Ce script classe les morceaux avec leur attributs par continents, utile pour pouvoir faire des
+    comparaisons par contient.
+
+'''
+
+
 import pandas as pd
 
 continents = {

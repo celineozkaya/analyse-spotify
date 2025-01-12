@@ -10,12 +10,12 @@ artists_data = {}
 edges = {}
 
 # lecture données
-with open('data/artists/artists.csv', 'r') as infile:
+with open('data/artists_info/artists.csv', 'r') as infile:
     reader = csv.DictReader(infile)
     rows = list(reader)
     
     for row in rows:
-        artist_id = row['artists']
+        artist_id = row['artists_info']
         country = row['country']
         name = row['name']
         popularity = row['popularity']

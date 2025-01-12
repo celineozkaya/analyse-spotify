@@ -1,3 +1,8 @@
+'''
+Ce script sert à créer des graphiques pour analyser les données
+
+'''
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np

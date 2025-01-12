@@ -11,9 +11,9 @@ import csv
 import pandas as pd
 
 import numpy as np
-GG = pd.read_csv("artists.csv")
+GG = pd.read_csv("artists_info.csv")
 teste = [['id_genre', 'id_artiste']]
-GG.drop_duplicates(subset = ["artists"], inplace = True)
+GG.drop_duplicates(subset = ["artists_info"], inplace = True)
 
 def fonctiontest():
     B=[['id_artiste', 'artiste']]

@@ -1,4 +1,8 @@
-import ast
+'''
+
+Ce script crée les fichiers nescessaires pour le graphe des artistes et des genres avec la coloration par attributs muscicaux
+
+'''
 
 import pandas as pd
 
@@ -24,26 +28,19 @@ def calculate_mean_attributes(artist_id, features_df):
 
 
 def create_noeuds(save_path):
-    # Load data
     features_df = pd.read_csv("./data/all_features.csv")
     noeuds_artiste_genre = pd.read_csv("./data/Artist_gephi/graphe_par_continent/neouds_continent.csv")
 
-    # Initialize empty list to store rows
     rows = []
 
-    # For each artist in noeuds_artiste_genre
     for _, row in noeuds_artiste_genre.iterrows():
-        # Get artist's mean attributes
         artist_means = calculate_mean_attributes(row['id'], features_df)
 
-        # Combine original row data with mean attributes
         new_row = row.to_dict()
         new_row.update(artist_means)
 
-        # Add to our list of rows
         rows.append(new_row)
 
-    # Create new DataFrame from all rows
     noeuds_avec_attributs = pd.DataFrame(rows)
 
     noeuds_avec_attributs.to_csv(save_path,index=False)
