@@ -1,4 +1,20 @@
-# Informations sur le repositoire
+La musique, en tant que reflet des tendances culturelles et sociales, offre une
+opportunité d’analyse à travers les données disponibles sur des plateformes
+numériques comme Spotify. Dans le cadre du projet de l’UV IC05, nous avons
+exploité les données rendues accessibles par l’API Spotify, un outil permettant
+d’accéder à une multitude de données sur les morceaux, les artistes et les genres,
+au travers d’une étude sur les Top50 générés par la plateforme. Inspiré du projet
+“Data Analysis with Spotify API” d’Erick Lopez (2023), qui portait sur le Billboard Hot
+100, ce travail s'inscrit dans une perspective à l’échelle mondiale, continentale et
+nationale. En utilisant Python et ses librairies d’analyse et traitement de données,
+l’objectif est de mettre en lumière les critères influençant la sélection des morceaux,
+de cartographier les relations entre artistes, pays et genres présents dans les Top50,
+et d’analyser les facteurs déterminants de la popularité musicale. Ce projet cherche
+ainsi à comprendre en quoi les réseaux d’artistes, genres et pays et les
+caractéristiques musicales attribuées par Spotify reflètent les préférences des
+utilisateurs de la plateforme ?
+
+# Informations sur le repo
 
 **/data** : Contient toutes les données
 
@@ -12,7 +28,7 @@
 
 **/extras** : contient touts les scripts et fichiers qui n'ont finallement pas servis dans le rapport final
   
-
+Pour simplifier l'accès aux différents graphes interactifs, il est recommandé de cloner ce répertoire. Sinon il faut télécharger un fichier pour chaque graphe.
 
 
 ## Liste des genres
