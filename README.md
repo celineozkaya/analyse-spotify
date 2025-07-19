@@ -31,7 +31,7 @@ utilisateurs de la plateforme ?
 Pour simplifier l'accès aux différents graphes interactifs, il est recommandé de cloner ce répertoire. Sinon il faut télécharger un fichier pour chaque graphe.
 
 
-## Liste des genres
+## Liste des genres retenus
 trap, rap, pop, reggeaton, hip hop, urbano latino, drill, funk, r&b, cumbia, country, rock, bachata, sierreno, house, v-pop,k-pop,dembow, corrido, amapiano
 
 # Caractéristiques audio d'un morceau dans l'API Spotify
